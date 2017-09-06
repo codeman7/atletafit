@@ -1,0 +1,104 @@
+body{
+	margin: 0px;
+	min-width: 468px;
+}
+
+header, main, footer{
+	float: left;
+}
+
+header{
+	width: 95%;
+	padding: 5px 2.5% 10px 2.5%;
+	background-color: rgb(255,255,255);
+	height: 40px;
+	border-bottom: 1px solid rgb(225,225,225);
+	float: left;
+}
+
+a{
+	color: rgb(0,0,125);
+	text-decoration: none;
+	float: left;
+	width: 7%;
+	text-align: center;
+	margin: 0px 1% 0px 1%;
+	font-family: "HelveticaNeue-Thin", "Helvetica Neue Thin", "Helvetica Neue", Helvetica;
+}
+
+a#active{
+	border-bottom: 1px solid rgb(0,0,125);
+}
+
+div#imageWrapper{
+	width: 27.5%;
+	float: left;
+	margin-left: 7.5%;
+}
+
+img{
+	height: 35px;
+	margin: auto;
+	display: block;
+	padding-top: 5px;
+}
+
+.settings{
+	float: right;
+	width: 8%;
+}
+
+main{
+	width: 100%;
+	background-color: rgb(245,245,245);
+	float: left;
+	height: auto;
+}
+
+footer{
+	width: 100%;
+	height: 100px;
+	float: left;
+	background-color: rgb(255,255,255);
+	border-top: 1px solid rgb(225,225,225);
+}
+
+div#ad1{
+	height: 90px;
+	margin-top: 5px;
+}
+
+div#ad2{
+	display: none;
+	margin-top: 20px;
+	height: 60px;
+}
+
+/* Do all small screen css here */
+@media (max-width: 800px){
+	
+	a{
+		width: 10%;
+	}
+	
+	div#imageWrapper{
+		margin-left: 10%;
+		width: 10%;
+	}
+	
+	.settings{
+		width: 12.5%;
+	}
+	
+	
+}
+
+@media (max-width: 728px){
+	div#ad1{
+		display: none;
+	}
+	
+	div#ad2{
+		display: block;
+	}
+}

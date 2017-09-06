@@ -1,0 +1,123 @@
+main{
+	overflow: scroll;
+}
+
+.container{
+	width: 85%;
+	margin: 15px 7.5% 15px 7.5%;
+	height: auto;
+	background-color: rgb(255,255,255);
+}
+
+.container .headerLeft{
+	width: 40%;
+}
+
+.container .headerRight{
+	width: 50%;
+	margin-left: 10%;
+}
+
+.container p{
+	font-family: "HelveticaNeue-UltraLight", "Helvetica Neue UltraLight", "Helvetica Neue", Helvetica;
+	font-size: 2.0em;
+	margin-bottom: 0px;
+	margin-left: 2.5%;
+	margin-top: 0px;
+	padding-top: 15px;
+	display: inline;
+}
+
+.container form{
+	display: inline;
+	font-size: 2.0em;
+	font-family: "HelveticaNeue-UltraLight", "Helvetica Neue UltraLight", "Helvetica Neue", Helvetica;
+}
+
+form input{
+	border: none;
+	font-size: 1.0em;
+	font-family: "HelveticaNeue-UltraLight", "Helvetica Neue UltraLight", "Helvetica Neue", Helvetica;
+	width: 5%;
+}
+
+form input#month{
+	width: 3.5%;
+	margin-left: 5%;
+}
+
+form input#submit{
+	background-color: rgb(240,240,240);
+	border: 1px solid rgb(220,220,220);
+	font-size: .7em;
+	width: 12%;
+	margin-left: 4%;
+	border-radius: 2px;
+	margin-top: -3px;
+}
+
+form input#submit:hover{
+	border: 1px solid rgb(200,200,200);
+}
+
+.container p span{
+	color: rgb(0,0,125);
+}
+
+table{
+	color: rgb(0,0,0);
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica;
+	width: 95%;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	text-align: right;
+	padding: 15px 0px 15px 0px;
+}
+
+.exerciseName{
+	text-align: left;
+}
+
+tr > td{
+	padding-bottom: 5px;
+}
+
+@media (max-width: 1100px) and (min-width: 860px){
+	.container p, .container form{
+		font-size: 1.5em;
+	}
+}
+
+
+@media (max-width: 859px) and (min-width: 700px){
+	.container p, .container form{
+		font-size: 1.25em;
+		font-family: "HelveticaNeue-Thin", "Helvetica Neue Thin", "Helvetica Neue", Helvetica;
+	}
+}
+
+@media (max-width: 699px){
+	.container{
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
+	.container p, .container form{
+		font-size: 1em;
+		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica;
+	}
+	
+	.container .headerRight{
+		margin-left: 2.5%;
+	}
+
+	form input{
+		font-family: "HelveticaNeue-Thin", "Helvetica Neue Thin", "Helvetica Neue", Helvetica;
+		width: 5%;
+	}
+	
+	form input#month{
+		margin-left: 2%;
+	}
+}

@@ -1,0 +1,174 @@
+main{
+	overflow: scroll;
+}
+
+.workout p{
+	font-family: "HelveticaNeue-Thin", "Helvetica Neue Thin", "Helvetica Neue", Helvetica;
+	font-size: 1.5em;
+	padding-top: 15px;
+	margin-top: 0px;
+}
+
+.workout p span{
+	color: rgb(0,0,125);
+}
+
+.workout, .schedule, .pastWorkouts{
+	float: left;
+	background-color: rgb(255,255,255);
+}
+
+.workout{
+	width: 50%;
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	margin-top: 25px;
+	padding-bottom: 15px;
+}
+
+.workout table{
+	width: 100%;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica;
+}
+
+.schedule{
+	width: 32.5%;
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+	padding-bottom: 15px;
+	margin-top: 25px;
+}
+
+.schedule p{
+	margin-top: 0px;
+	padding-top: 15px;
+	font-size: 1.5em;
+	font-family: "HelveticaNeue-Thin", "Helvetica Neue Thin", "Helvetica Neue", Helvetica;
+}
+
+.schedule table{
+	width: 100%;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica;
+}
+
+.day{
+	color: rgb(0,0,125);
+}
+
+tr > td{
+	padding-bottom: 5px;
+}
+
+.pastWorkouts{
+	width: 37.5%;
+	margin-top: 25px;
+}
+
+.pastWorkouts a{
+	width: 85%;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	margin-left: 7.5%;
+	margin-right: 7.5%;
+	height: 27px;
+	padding-top: 9px;
+	color: rgb(0,0,0);
+	background-color: rgb(240,240,240);
+	border: 1px solid rgb(220,220,220);
+}
+
+.pastWorkouts a:hover{
+	border: 1px solid rgb(200,200,200);
+}
+
+/*
+#calender{
+	width: 90%;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 5px;
+	height: 45px;
+	background-color: rgb(255,255,255);
+	border-bottom: 1px solid rgb(0,0,0);
+}
+
+.day, .active{
+	float: left;
+}
+
+.day{
+	float: left;
+}
+
+.day a{
+	width: 100%;
+	text-align: center;
+	text-decoration: none;
+	color: rgb(0,0,0);
+	/*background-color: rgb(255,255,255);
+	border-radius: 50%;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica;
+}
+
+
+
+.day:hover a{
+	color: rgb(255,255,255);
+	background-color: rgb(0,0,125);
+	cursor: pointer;
+}
+
+.active a{
+	float: left;
+	background-color: rgb(0,0,125);
+	color: rgb(255,255,255);
+}
+
+#exercises{
+	width: 20%;
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-justify-content: center;
+	-ms-justify-content: center;
+	-moz-justify-content: center;
+	-o-justify-content: center;
+	justify-content: center;
+	-webkit-align-items: center;
+	-ms-align-items: center;
+	-moz-align-items: center;
+	-o-align-items: center;
+	align-items: center;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	background-color: rgb(255,255,255);
+}
+
+#exercises p{
+	padding-left: 10%;
+	width: 90%;
+	border-bottom: 1px solid rgb(225,225,225);
+	color: rgb(75,75,75);
+	font-family: "HelveticaNeue-Thin", "Helvetica Neue Thin", "Helvetica Neue", Helvetica;
+	font-size: 1.5em;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 15px;
+}
+
+#exercises p:hover{
+	color: rgb(255,255,255);
+	background-color: rgb(0,0,125);
+}
+
+#exercises p.current{
+	background-color: rgb(0,0,125);
+	color: rgb(255,255,255);
+}*/

@@ -1,0 +1,190 @@
+body{
+	margin: 0px;
+	min-width: 640px;
+}
+
+header{
+	width: 95%;
+	padding: 5px 2.5% 10px 2.5%;
+	background-color: rgb(255,255,255);
+	height: 40px;
+	border-bottom: 1px solid rgb(225,225,225);
+	float: left;
+}
+
+div#imageWrapper, div#linksNav{
+	float: left;
+}
+
+div#imageWrapper{
+	width: 10%;
+	margin-left: 45.5%;
+}
+
+img{
+	height: 35px;
+	margin: auto;
+	display: block;
+	padding-top: 5px;
+}
+
+div#linksNav{
+	width: 42.5%;
+	float: left;
+}
+
+ul{
+	margin-left: 30%;
+	width: 70%;
+}
+
+li#signUp{
+	margin-right: 7.5%;
+}
+
+li{
+	list-style-type: none;
+	margin-right: 5%;
+	float: right;
+}
+
+a.link{
+	text-decoration: none;
+	background-color: rgb(240,240,240);
+	border: 1px solid rgb(220,220,220);
+	padding: 4px 7px 4px 7px;
+	color: rgb(0,0,0);
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica; 
+  	font-size: .8em;
+  	border-radius: 2px;
+}
+
+a.link:hover{
+	border: 1px solid rgb(200,200,200);
+}
+
+main{
+	width: 100%;
+	float: left;
+	height: auto;
+}
+
+main div#screenshot{
+	width: 90%;
+	height: 400px;
+	color: rgb(255,255,255);
+	padding-left: 10%;
+	padding-top: 15px;
+	background-color: rgb(0,0,0);
+	background-image: url("../images/downtown.jpg");
+	background-size: 100% 100%;
+	float: left;
+}
+
+#leftScreenshot, #rightScreenshot{
+	float: left;
+}
+
+div#screenshot #leftScreenshot{
+	width: 50%;
+	font-family: "HelveticaNeue-UltraLight", "Helvetica Neue UltraLight", "Helvetica Neue", Helvetica;
+	font-size: 2em;
+	padding: 10px;
+	border-radius: 2px;
+	margin-top: 30px;
+	color: rgb(0,0,125);
+	background-color: rgba(255,255,255,.75);
+}
+
+#leftScreenshot img{
+	display: block;
+	margin: auto;
+}
+
+#rightScreenshot{
+	width: 30%;
+}
+
+#rightScreenshot img{
+	height: 300px;
+}
+
+#features{
+	width: 90%;
+	margin: 0px 0% 0px 5%;
+	height: auto;
+	float: left;
+}
+
+#features #header{
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica;
+	text-align: center;
+	font-size: 2.0em;
+	color: rgb(50,50,50);
+}
+
+#features div{
+	float: left;
+	width: 50%;
+	height: auto;
+}
+
+.featureHeader{
+	color: rgb(0,0,125);
+	font-size: 1.75em;
+	font-family: "HelveticaNeue-UltraLight", "Helvetica Neue UltraLight", "Helvetica Neue", Helvetica;
+}
+
+.featureExplaination{
+	width: 80%;
+	font-family: "HelveticaNeue-Regular", "Helvetica Neue Regular", "Helvetica Neue", Helvetica;
+	color: rgb(50,50,50);
+}
+
+footer{
+	border-top: 1px solid rgb(225,225,225);
+	height: 25px;
+	padding: 10px 10% 0px 10%;
+	width: 80%;
+	float: left;
+}
+
+footer a{
+	text-decoration: none;
+	color: rgb(0,0,0);
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica;
+	font-size: .8em;
+	margin-right: 2.5%;
+}
+
+@media (max-width:1080px) and (min-width: 1036px){
+	.featureExplaination{
+		width: 75%;
+	}
+}
+
+@media (max-width: 702px) and (min-width: 650px){
+	.featureExplaination{
+		width: 70%;
+	}
+}
+
+@media (max-width: 649px){
+	.featureExplaination{
+		width: 95%;
+	}
+}
+
+@media (max-width: 675px){
+	main div#screenshot{
+		height: 300px;
+	}
+
+	div#screenshot #leftScreenshot{
+		width: 80%;
+	}
+	
+	#rightScreenshot{
+		display: none;
+	}
+}
